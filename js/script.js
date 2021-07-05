@@ -16,7 +16,7 @@ const getImage = async function (){
 
 
 const selectRandomImage = function(images){
-    const randomIndex = Math.floor(Math.random()* images.length);
+    const randomIndex = Math.floor(Math.random() * images.length);
     const randomImage = images[randomIndex];
     displayImage(randomImage);
     // console.log(randomImage);
@@ -35,6 +35,6 @@ const displayImage = function (randomImage){
 
 };
 
-button.addEventListener= ("click", function (){
+button.addEventListener("click", function (){
     getImage();
 });
